@@ -1,0 +1,6 @@
+protobuf==5.28.0
+google-generativeai==0.5.2
+Requests==2.32.3
+streamlit==1.38.0
+streamlit_lottie==0.0.5
+streamlit_option_menu==0.3.12
