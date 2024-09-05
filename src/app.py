@@ -7,7 +7,7 @@ import time
 
 # Initilizing
 st.set_page_config(page_title="Practice Page", page_icon=":tada:", layout="wide")
-genai.configure(api_key="AIzaSyDamDyhxxAKQXhfsFbImw65-L_rehmbcQg")
+genai.configure(api_key="YOUR_API_KEY_HERE")
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
 
